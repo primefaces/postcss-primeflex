@@ -1,12 +1,11 @@
 {
   "name": "postcss-primeflex",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "PostCSS plugin PrimeFlex",
   "keywords": ["postcss", "css", "postcss-plugin", "postcss-primeflex"],
   "scripts": {
     "test": "jest --coverage && eslint ."
   },
-  "author": "Cagatay Civici <cagatay.civici@gmail.com>",
   "license": "MIT",
   "repository": "cagataycivici/postcss-primeflex",
   "engines": {

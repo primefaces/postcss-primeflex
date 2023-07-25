@@ -10,5 +10,5 @@ async function run (input, output, opts = { }) {
 }
 
 test('does something', async () => {
-  await run('@primeflex', 'a{ }', { });
+  await run('@primeflex', '', { });
 })
