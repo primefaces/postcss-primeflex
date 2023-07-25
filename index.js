@@ -1,31 +1,17 @@
-/**
- * @type {import('postcss').PluginCreator}
- */
+const grid = require('./lib/grid');
+const defaultOptions = require('./lib/options');
+
 module.exports = (opts = {}) => {
-  // Work with options here
-
-  return {
-    postcssPlugin: 'postcss-primeflex',
-    /*
-    Root (root, postcss) {
-      // Transform CSS AST here
+    return {
+        postcssPlugin: 'postcss-primeflex',
+        AtRule: {
+            primeflex: (atRule) => {
+                const _opts = {...defaultOptions, ...opts};
+                grid(atRule, _opts);
+                atRule.remove();
+            }
+        }
     }
-    */
-
-    /*
-    Declaration (decl, postcss) {
-      // The faster way to find Declaration node
-    }
-    */
-
-    /*
-    Declaration: {
-      color: (decl, postcss) {
-        // The fastest way find Declaration node if you know property name
-      }
-    }
-    */
-  }
 }
 
 module.exports.postcss = true
