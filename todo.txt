@@ -3,3 +3,6 @@
 - responsive for all?
 - min-w-fixed-widths
 - fit-content
+- css vars for variables e.g. spacing
+- custom style class e.g. @apply
+- 
