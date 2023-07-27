@@ -7,6 +7,7 @@ const gap = require('./lib/gap');
 const padding = require('./lib/padding');
 const margin = require('./lib/margin');
 const elevation = require('./lib/elevation');
+const border = require('./lib/border');
 const borderradius = require('./lib/borderradius');
 const width = require('./lib/width');
 const height = require('./lib/height');
@@ -36,8 +37,8 @@ module.exports = (opts = {}) => {
                 //padding(atRule, _opts);
                 //margin(atRule, _opts);
                 //elevation(atRule, _opts);
-                //border
-                borderradius(atRule, _opts);
+                border(atRule, _opts);
+                //borderradius(atRule, _opts);
                 //width(atRule, _opts);
                 //height(atRule, _opts);
                 //position(atRule, _opts);
