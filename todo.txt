@@ -5,4 +5,5 @@
 - fit-content
 - css vars for variables e.g. spacing
 - custom style class e.g. @apply
-- 
+- configure utils to include
+- animation perspective

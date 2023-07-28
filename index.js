@@ -19,7 +19,8 @@ const userselect = require('./lib/userselect');
 const liststyle = require('./lib/liststyle');
 const misc = require('./lib/misc');
 const transition = require('./lib/transition');
-const transform = require('./lib/transform')
+const transform = require('./lib/transform');
+const animation = require('./lib/animation');
 
 module.exports = (opts = {}) => {
     return {
@@ -37,7 +38,7 @@ module.exports = (opts = {}) => {
                 //padding(atRule, _opts);
                 //margin(atRule, _opts);
                 //elevation(atRule, _opts);
-                border(atRule, _opts);
+                //border(atRule, _opts);
                 //borderradius(atRule, _opts);
                 //width(atRule, _opts);
                 //height(atRule, _opts);
@@ -50,7 +51,7 @@ module.exports = (opts = {}) => {
                 //misc(atRule, _opts);
                 //transition(atRule, _opts);
                 //transform(atRule, _opts);
-                //animation
+                //animation(atRule, _opts);
                 atRule.remove();
             }
         }
