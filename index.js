@@ -1,4 +1,5 @@
 const grid = require('./lib/grid');
+const formlayout = require('./lib/formlayout');
 const display = require('./lib/display');
 const defaultOptions = require('./lib/options');
 const typography = require('./lib/typography');
@@ -30,7 +31,7 @@ module.exports = (opts = {}) => {
                 const _opts = {...defaultOptions, ...opts};
                 //grid(atRule, _opts);
                 //colors
-                //formlayout
+                //formlayout(atRule, _opts);
                 //display(atRule, _opts);
                 //typography(atRule, _opts);
                 //flexbox(atRule, _opts);
