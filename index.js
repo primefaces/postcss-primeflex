@@ -1,3 +1,4 @@
+const colors = require('./lib/colors');
 const grid = require('./lib/grid');
 const formlayout = require('./lib/formlayout');
 const display = require('./lib/display');
@@ -29,30 +30,30 @@ module.exports = (opts = {}) => {
         AtRule: {
             primeflex: (atRule) => {
                 const _opts = {...defaultOptions, ...opts};
-                //grid(atRule, _opts);
-                //colors
-                //formlayout(atRule, _opts);
-                //display(atRule, _opts);
-                //typography(atRule, _opts);
-                //flexbox(atRule, _opts);
-                //gap(atRule, _opts);
-                //padding(atRule, _opts);
-                //margin(atRule, _opts);
-                //elevation(atRule, _opts);
-                //border(atRule, _opts);
-                //borderradius(atRule, _opts);
-                //width(atRule, _opts);
-                //height(atRule, _opts);
-                //position(atRule, _opts);
-                //overflow(atRule, _opts);
-                //zindex(atRule, _opts);
-                //image(atRule, _opts);
-                //userselect(atRule, _opts);
-                //liststyle(atRule, _opts);
-                //misc(atRule, _opts);
-                //transition(atRule, _opts);
-                //transform(atRule, _opts);
-                //animation(atRule, _opts);
+                grid(atRule, _opts);
+                colors(atRule, _opts);
+                formlayout(atRule, _opts);
+                display(atRule, _opts);
+                typography(atRule, _opts);
+                flexbox(atRule, _opts);
+                gap(atRule, _opts);
+                padding(atRule, _opts);
+                margin(atRule, _opts);
+                elevation(atRule, _opts);
+                border(atRule, _opts);
+                borderradius(atRule, _opts);
+                width(atRule, _opts);
+                height(atRule, _opts);
+                position(atRule, _opts);
+                overflow(atRule, _opts);
+                zindex(atRule, _opts);
+                image(atRule, _opts);
+                userselect(atRule, _opts);
+                liststyle(atRule, _opts);
+                misc(atRule, _opts);
+                transition(atRule, _opts);
+                transform(atRule, _opts);
+                animation(atRule, _opts);
                 atRule.remove();
             }
         }
