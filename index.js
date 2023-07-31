@@ -23,6 +23,7 @@ const misc = require('./lib/misc');
 const transition = require('./lib/transition');
 const transform = require('./lib/transform');
 const animation = require('./lib/animation');
+const variables = require('./lib/variables');
 
 module.exports = (opts = {}) => {
     return {
@@ -54,6 +55,7 @@ module.exports = (opts = {}) => {
                 transition(atRule, _opts);
                 transform(atRule, _opts);
                 animation(atRule, _opts);
+                variables(atRule, _opts);
                 atRule.remove();
             }
         }

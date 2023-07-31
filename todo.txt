@@ -14,3 +14,7 @@
 - css vars prefix
 - rgba
 - custom-colors
+- extend
+- fonts
+- box sizing *
+- color scheme
