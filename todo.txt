@@ -18,6 +18,7 @@
 
 // Cagatay
 - box sizing *
+- themes
 - color scheme
 - prefix: {
     className: '',
