@@ -1,20 +1,26 @@
-- Add all
-- reset?
+- Add all and unset and reset?
+- Grid gap
 - responsive for all?
 - min-w-fixed-widths
 - fit-content
-- css vars for variables e.g. spacing
 - custom style class e.g. @apply
 - configure utils to include
 - animation perspective
-- formlayout config
 - layers
 - responsive colors
 - themes -> css vars
 - css vars prefix
-- rgba
+- rgba and alpha colors
+- css grid
 - custom-colors
 - extend
-- fonts
+- fonts e.g. font family
 - box sizing *
 - color scheme
+- spacing
+- prefix: {
+        className: '',
+        cssVariable: 'p'
+    },
+- gradients
+- primeflex.config.js
