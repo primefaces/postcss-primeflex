@@ -15,12 +15,10 @@
 - custom-colors
 - fonts e.g. font family
 - gradients
+- box sizing: content-box, border-box
+- filters
 
 // Cagatay
-- box sizing *
 - themes
 - color scheme
-- prefix: {
-    className: '',
-    cssVariable: 'p'
-},
+- backward compatibility of css variables
