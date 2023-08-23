@@ -1,4 +1,5 @@
 const colors = require('./lib/colors');
+const all = require('./lib/all');
 const grid = require('./lib/grid');
 const formlayout = require('./lib/formlayout');
 const display = require('./lib/display');
@@ -31,6 +32,7 @@ module.exports = (opts = {}) => {
         AtRule: {
             primeflex: (atRule) => {
                 const _opts = {...defaultOptions, ...opts};
+                all(atRule, _opts);
                 grid(atRule, _opts);
                 colors(atRule, _opts);
                 formlayout(atRule, _opts);

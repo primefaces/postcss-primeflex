@@ -1,8 +1,6 @@
-- Add all and unset and reset?
-- Grid gap
-- responsive for all?
-- min-w-fixed-widths
-- fit-content
+- states for all utilities?
+- responsive for utilities?
+
 - custom style class e.g. @apply
 - configure utils to include
 - animation perspective
