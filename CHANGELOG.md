@@ -5,3 +5,13 @@
 - New height and min|max-height classes
 - All colors are now responsive
 - New spacing configuration and more utils up to p-32 and m-32
+- Filters & Backdrop Filters added.   
+    blur
+    brightness
+    grayscale
+    hue-rotate
+    sepia
+    saturate
+    invert
+    drop-shadow
+- Font family & new font weights and new text aligns added
