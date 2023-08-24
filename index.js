@@ -27,6 +27,7 @@ const animation = require('./lib/animation');
 const variables = require('./lib/variables');
 const filters = require("./lib/filters");
 const outline = require("./lib/outline");
+const svg = require("./lib/svg");
 module.exports = (opts = {}) => {
     return {
         postcssPlugin: 'postcss-primeflex',
@@ -61,6 +62,7 @@ module.exports = (opts = {}) => {
                 variables(atRule, _opts);
                 filters(atRule, _opts);
                 outline(atRule, _opts);
+                svg(atRule, _opts);
                 atRule.remove();
             }
         }

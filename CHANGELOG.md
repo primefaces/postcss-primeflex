@@ -19,3 +19,4 @@
 - New cursor pointer options added
 - Box sizing classes added
 - Outline classes added (width, color, style, offset)
+- Svg classes added (fill, stroke, stroke-width)
