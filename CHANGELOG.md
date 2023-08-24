@@ -14,4 +14,5 @@
     saturate
     invert
     drop-shadow
-- Font family & new font weights and new text aligns added
+- Font families & new font weights and new text aligns added
+- Scale classes added to Transform
