@@ -16,3 +16,5 @@
     drop-shadow
 - Font families & new font weights and new text aligns added
 - Scale classes added to Transform
+- New cursor pointer options added
+- Box sizing classes added
