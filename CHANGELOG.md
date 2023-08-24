@@ -18,3 +18,4 @@
 - Scale classes added to Transform
 - New cursor pointer options added
 - Box sizing classes added
+- Outline classes added (width, color, style, offset)
