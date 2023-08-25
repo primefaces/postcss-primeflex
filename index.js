@@ -59,10 +59,10 @@ module.exports = (opts = {}) => {
                 transition(atRule, _opts);
                 transform(atRule, _opts);
                 animation(atRule, _opts);
-                variables(atRule, _opts);
                 filters(atRule, _opts);
                 outline(atRule, _opts);
                 svg(atRule, _opts);
+                variables(atRule, _opts);
                 atRule.remove();
             }
         }

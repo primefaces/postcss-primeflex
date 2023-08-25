@@ -17,8 +17,3 @@
 - gradients
 - box sizing: content-box, border-box
 - filters
-
-// Cagatay
-- themes
-- color scheme
-- backward compatibility of css variables
